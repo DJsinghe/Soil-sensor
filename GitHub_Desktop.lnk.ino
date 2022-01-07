@@ -7,7 +7,6 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 const int analogInPin = A5;
 int plantVal = 0; 
 void setup() {
-pinMode(3,OUTPUT);
 lcd.begin(16, 2);
 delay(100);
 } 
@@ -21,3 +20,4 @@ lcd.print(plantVal);
 delay(300);
 
 }
+//credit to project hub
